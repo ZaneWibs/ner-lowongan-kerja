@@ -1,0 +1,32 @@
+# --- Data penelitian (tidak dipublikasikan di repo) ---
+data/*
+!data/README.md
+*.sqlite
+*.sqlite3
+*.db
+*gold_annotations*.json
+prediksi_ner_lowongan*.json
+*.xlsx
+*.pkl
+
+# --- Keluaran notebook & model ---
+outputs/
+indobert-ner*/
+checkpoint-*/
+tmp_*/
+*.safetensors
+*.bin
+*.pt
+*.zip
+
+# --- Python / Jupyter ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# --- Sistem ---
+.DS_Store
+Thumbs.db

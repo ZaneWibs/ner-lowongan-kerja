@@ -1,0 +1,6 @@
+Model,Jenis,Parameter (juta),Presisi,Recall,F1 (Viterbi),F1 (argmax),Akurasi token,Langkah terbaik,Waktu (menit)
+indolem/indobert-base-uncased,Khusus Indonesia,110.0,0.708,0.7577,0.732,0.7302,0.8991,1386,38.1
+bert-base-multilingual-cased,Umum (multibahasa),177.3,0.7127,0.7446,0.7283,0.7279,0.8943,1078,49.1
+cahya/bert-base-indonesian-1.5G,Khusus Indonesia,110.0,0.6995,0.7429,0.7205,0.7206,0.8936,770,30.1
+distilbert-base-multilingual-cased,Umum (multibahasa),134.8,0.7014,0.7251,0.7131,0.7145,0.8916,1386,30.2
+indobenchmark/indobert-base-p2,Khusus Indonesia,123.9,0.7063,0.7158,0.711,0.7097,0.8926,1386,38.2

@@ -1,0 +1,4 @@
+# Dashboard saja
+streamlit>=1.36
+pandas
+plotly>=5.20

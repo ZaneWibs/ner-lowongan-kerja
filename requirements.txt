@@ -1,0 +1,13 @@
+# Notebook & skrip pascaproses (Python 3.10+)
+transformers==4.46.3
+accelerate>=0.34
+datasets
+seqeval
+torch
+scikit-learn
+scipy
+numpy
+pandas
+matplotlib
+rapidfuzz
+openpyxl

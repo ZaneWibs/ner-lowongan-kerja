@@ -1,0 +1,1169 @@
+[
+ {
+  "model": "indolem/indobert-base-uncased",
+  "seed": 42,
+  "parameter_juta": 110.0,
+  "f1_viterbi": 0.732,
+  "f1_argmax": 0.7302,
+  "presisi": 0.708,
+  "recall": 0.7577,
+  "akurasi_token": 0.8991,
+  "span_acuan": 13314,
+  "langkah_terbaik": 1386,
+  "epoch_terbaik": 18.0,
+  "menit": 38.1,
+  "per_entitas": {
+   "JOB_TITLE": {
+    "presisi": 0.6423,
+    "recall": 0.7584,
+    "f1": 0.6956,
+    "support": 592
+   },
+   "COMPANY": {
+    "presisi": 0.7432,
+    "recall": 0.7579,
+    "f1": 0.7505,
+    "support": 252
+   },
+   "LOCATION": {
+    "presisi": 0.7264,
+    "recall": 0.8022,
+    "f1": 0.7624,
+    "support": 460
+   },
+   "EDUCATION_LEVEL": {
+    "presisi": 0.8259,
+    "recall": 0.8376,
+    "f1": 0.8317,
+    "support": 708
+   },
+   "DEGREE_FIELD": {
+    "presisi": 0.8693,
+    "recall": 0.9196,
+    "f1": 0.8937,
+    "support": 535
+   },
+   "EXPERIENCE_YEARS": {
+    "presisi": 0.9511,
+    "recall": 0.9727,
+    "f1": 0.9618,
+    "support": 440
+   },
+   "RESPONSIBILITY": {
+    "presisi": 0.6881,
+    "recall": 0.7099,
+    "f1": 0.6988,
+    "support": 4040
+   },
+   "SKILL": {
+    "presisi": 0.5595,
+    "recall": 0.6353,
+    "f1": 0.595,
+    "support": 1933
+   },
+   "SOFT_SKILL": {
+    "presisi": 0.7595,
+    "recall": 0.8121,
+    "f1": 0.7849,
+    "support": 2804
+   },
+   "TOOL": {
+    "presisi": 0.7625,
+    "recall": 0.8088,
+    "f1": 0.785,
+    "support": 1072
+   },
+   "PROGRAMMING_LANGUAGE": {
+    "presisi": 0.7143,
+    "recall": 0.75,
+    "f1": 0.7317,
+    "support": 20
+   },
+   "INDUSTRY": {
+    "presisi": 0.5877,
+    "recall": 0.6862,
+    "f1": 0.6331,
+    "support": 376
+   },
+   "SALARY": {
+    "presisi": 0.5556,
+    "recall": 0.5556,
+    "f1": 0.5556,
+    "support": 27
+   },
+   "EMPLOYMENT_TYPE": {
+    "presisi": 0.5758,
+    "recall": 0.6909,
+    "f1": 0.6281,
+    "support": 55
+   }
+  },
+  "riwayat": [
+   {
+    "epoch": 1,
+    "eval_loss": 1.5285252332687378,
+    "eval_f1": 0.2846862230895895,
+    "learning_rate": 9.691558441558442e-06,
+    "train_loss": 3.2136328125
+   },
+   {
+    "epoch": 2,
+    "eval_loss": 0.7681425213813782,
+    "eval_f1": 0.6642886169684381
+   },
+   {
+    "epoch": 3,
+    "learning_rate": 1.9431818181818182e-05,
+    "eval_loss": 0.6612625122070312,
+    "eval_f1": 0.6943014074836937,
+    "train_loss": 0.8481939697265625
+   },
+   {
+    "epoch": 4,
+    "learning_rate": 2.9172077922077924e-05,
+    "eval_loss": 0.663053035736084,
+    "eval_f1": 0.7155915382606425,
+    "train_loss": 0.6156447601318359
+   },
+   {
+    "epoch": 5,
+    "eval_loss": 0.6413700580596924,
+    "eval_f1": 0.7253551442100733,
+    "learning_rate": 2.900974025974026e-05,
+    "train_loss": 0.5186735916137696
+   },
+   {
+    "epoch": 6,
+    "eval_loss": 0.6624690294265747,
+    "eval_f1": 0.7188101038594692,
+    "learning_rate": 2.7927489177489177e-05,
+    "train_loss": 0.4268998336791992
+   },
+   {
+    "epoch": 7,
+    "eval_loss": 0.6579908132553101,
+    "eval_f1": 0.7262737691548268
+   },
+   {
+    "epoch": 8,
+    "learning_rate": 2.6845238095238097e-05,
+    "eval_loss": 0.6944484710693359,
+    "eval_f1": 0.722342825522496,
+    "train_loss": 0.3646355056762695
+   },
+   {
+    "epoch": 9,
+    "eval_loss": 0.7613796591758728,
+    "eval_f1": 0.7282744372229156,
+    "learning_rate": 2.5762987012987012e-05,
+    "train_loss": 0.30820798873901367
+   },
+   {
+    "epoch": 10,
+    "eval_loss": 0.7834025621414185,
+    "eval_f1": 0.7264445601249349,
+    "learning_rate": 2.468073593073593e-05,
+    "train_loss": 0.2596523666381836
+   },
+   {
+    "epoch": 11,
+    "eval_loss": 0.8184782266616821,
+    "eval_f1": 0.7148873990029225
+   },
+   {
+    "epoch": 12,
+    "learning_rate": 2.359848484848485e-05,
+    "eval_loss": 0.8451694250106812,
+    "eval_f1": 0.7141094899825599,
+    "train_loss": 0.22341424942016602
+   },
+   {
+    "epoch": 13,
+    "learning_rate": 2.2516233766233766e-05,
+    "eval_loss": 0.886188805103302,
+    "eval_f1": 0.7194879335697604,
+    "train_loss": 0.19117055892944335
+   },
+   {
+    "epoch": 14,
+    "eval_loss": 0.9393559098243713,
+    "eval_f1": 0.7153491974697707,
+    "learning_rate": 2.1433982683982685e-05,
+    "train_loss": 0.16204866409301757
+   },
+   {
+    "epoch": 15,
+    "eval_loss": 0.9845156669616699,
+    "eval_f1": 0.7123665173957975
+   },
+   {
+    "epoch": 16,
+    "learning_rate": 2.0351731601731604e-05,
+    "eval_loss": 0.9987378716468811,
+    "eval_f1": 0.7085807728720199,
+    "train_loss": 0.14128793716430665
+   },
+   {
+    "epoch": 17,
+    "learning_rate": 1.926948051948052e-05,
+    "eval_loss": 1.0463706254959106,
+    "eval_f1": 0.7151064840813859,
+    "train_loss": 0.12530423164367677
+   },
+   {
+    "epoch": 18,
+    "eval_loss": 1.0595691204071045,
+    "eval_f1": 0.7154549412276884
+   }
+  ],
+  "kesalahan": {
+   "benar": 10088,
+   "batas": 2394,
+   "palsu": 1339,
+   "terlewat": 469,
+   "salah_label": 363
+  },
+  "f1_argmax_per_entitas": {
+   "JOB_TITLE": 0.6922,
+   "COMPANY": 0.7421,
+   "LOCATION": 0.7612,
+   "EDUCATION_LEVEL": 0.8329,
+   "DEGREE_FIELD": 0.8911,
+   "EXPERIENCE_YEARS": 0.9617,
+   "RESPONSIBILITY": 0.6978,
+   "SKILL": 0.5889,
+   "SOFT_SKILL": 0.7862,
+   "TOOL": 0.7745,
+   "PROGRAMMING_LANGUAGE": 0.7273,
+   "INDUSTRY": 0.6252,
+   "SALARY": 0.5769,
+   "EMPLOYMENT_TYPE": 0.6116
+  }
+ },
+ {
+  "model": "cahya/bert-base-indonesian-1.5G",
+  "seed": 42,
+  "parameter_juta": 110.0,
+  "f1_viterbi": 0.7205,
+  "f1_argmax": 0.7206,
+  "presisi": 0.6995,
+  "recall": 0.7429,
+  "akurasi_token": 0.8936,
+  "span_acuan": 13314,
+  "langkah_terbaik": 770,
+  "epoch_terbaik": 14.0,
+  "menit": 30.1,
+  "per_entitas": {
+   "JOB_TITLE": {
+    "presisi": 0.6783,
+    "recall": 0.6875,
+    "f1": 0.6829,
+    "support": 592
+   },
+   "COMPANY": {
+    "presisi": 0.6931,
+    "recall": 0.7619,
+    "f1": 0.7259,
+    "support": 252
+   },
+   "LOCATION": {
+    "presisi": 0.7425,
+    "recall": 0.8022,
+    "f1": 0.7712,
+    "support": 460
+   },
+   "EDUCATION_LEVEL": {
+    "presisi": 0.8196,
+    "recall": 0.8277,
+    "f1": 0.8236,
+    "support": 708
+   },
+   "DEGREE_FIELD": {
+    "presisi": 0.8454,
+    "recall": 0.9196,
+    "f1": 0.8809,
+    "support": 535
+   },
+   "EXPERIENCE_YEARS": {
+    "presisi": 0.9446,
+    "recall": 0.9682,
+    "f1": 0.9562,
+    "support": 440
+   },
+   "RESPONSIBILITY": {
+    "presisi": 0.679,
+    "recall": 0.7032,
+    "f1": 0.6909,
+    "support": 4040
+   },
+   "SKILL": {
+    "presisi": 0.5252,
+    "recall": 0.6244,
+    "f1": 0.5706,
+    "support": 1933
+   },
+   "SOFT_SKILL": {
+    "presisi": 0.7568,
+    "recall": 0.7956,
+    "f1": 0.7757,
+    "support": 2804
+   },
+   "TOOL": {
+    "presisi": 0.7791,
+    "recall": 0.8125,
+    "f1": 0.7954,
+    "support": 1072
+   },
+   "PROGRAMMING_LANGUAGE": {
+    "presisi": 0.8125,
+    "recall": 0.65,
+    "f1": 0.7222,
+    "support": 20
+   },
+   "INDUSTRY": {
+    "presisi": 0.5524,
+    "recall": 0.5612,
+    "f1": 0.5567,
+    "support": 376
+   },
+   "SALARY": {
+    "presisi": 0.5714,
+    "recall": 0.4444,
+    "f1": 0.5,
+    "support": 27
+   },
+   "EMPLOYMENT_TYPE": {
+    "presisi": 0.6346,
+    "recall": 0.6,
+    "f1": 0.6168,
+    "support": 55
+   }
+  },
+  "riwayat": [
+   {
+    "epoch": 1,
+    "eval_loss": 1.266542673110962,
+    "eval_f1": 0.4297927836545428,
+    "learning_rate": 9.691558441558442e-06,
+    "train_loss": 2.9412661743164064
+   },
+   {
+    "epoch": 2,
+    "eval_loss": 0.7376267313957214,
+    "eval_f1": 0.6648699636167632
+   },
+   {
+    "epoch": 3,
+    "learning_rate": 1.9431818181818182e-05,
+    "eval_loss": 0.6621223092079163,
+    "eval_f1": 0.6926984673669708,
+    "train_loss": 0.784862060546875
+   },
+   {
+    "epoch": 4,
+    "learning_rate": 2.9172077922077924e-05,
+    "eval_loss": 0.6720985770225525,
+    "eval_f1": 0.7117234208474136,
+    "train_loss": 0.5954905700683594
+   },
+   {
+    "epoch": 5,
+    "eval_loss": 0.6729190349578857,
+    "eval_f1": 0.7233268356075373,
+    "learning_rate": 2.900974025974026e-05,
+    "train_loss": 0.4889340591430664
+   },
+   {
+    "epoch": 6,
+    "eval_loss": 0.682167649269104,
+    "eval_f1": 0.7110222486918791,
+    "learning_rate": 2.7927489177489177e-05,
+    "train_loss": 0.3848711395263672
+   },
+   {
+    "epoch": 7,
+    "eval_loss": 0.6965643167495728,
+    "eval_f1": 0.7163148124163538
+   },
+   {
+    "epoch": 8,
+    "learning_rate": 2.6845238095238097e-05,
+    "eval_loss": 0.76194828748703,
+    "eval_f1": 0.7198195807906607,
+    "train_loss": 0.30569326400756835
+   },
+   {
+    "epoch": 9,
+    "eval_loss": 0.850178062915802,
+    "eval_f1": 0.722543097747013,
+    "learning_rate": 2.5762987012987012e-05,
+    "train_loss": 0.2444038772583008
+   },
+   {
+    "epoch": 10,
+    "eval_loss": 0.9064116477966309,
+    "eval_f1": 0.7176073990837584,
+    "learning_rate": 2.468073593073593e-05,
+    "train_loss": 0.1879470443725586
+   },
+   {
+    "epoch": 11,
+    "eval_loss": 0.9377002716064453,
+    "eval_f1": 0.7176010430247719
+   },
+   {
+    "epoch": 12,
+    "learning_rate": 2.359848484848485e-05,
+    "eval_loss": 0.9557580947875977,
+    "eval_f1": 0.7039759295078445,
+    "train_loss": 0.15274017333984374
+   },
+   {
+    "epoch": 13,
+    "learning_rate": 2.2516233766233766e-05,
+    "eval_loss": 1.039689064025879,
+    "eval_f1": 0.7145689655172414,
+    "train_loss": 0.12485538482666016
+   },
+   {
+    "epoch": 14,
+    "eval_loss": 1.080824375152588,
+    "eval_f1": 0.7097442091187508
+   }
+  ],
+  "kesalahan": {
+   "benar": 9891,
+   "batas": 2547,
+   "palsu": 1428,
+   "terlewat": 496,
+   "salah_label": 380
+  },
+  "f1_argmax_per_entitas": {
+   "JOB_TITLE": 0.6781,
+   "COMPANY": 0.7224,
+   "LOCATION": 0.7678,
+   "EDUCATION_LEVEL": 0.8236,
+   "DEGREE_FIELD": 0.8817,
+   "EXPERIENCE_YEARS": 0.9561,
+   "RESPONSIBILITY": 0.6953,
+   "SKILL": 0.5611,
+   "SOFT_SKILL": 0.7776,
+   "TOOL": 0.7896,
+   "PROGRAMMING_LANGUAGE": 0.7027,
+   "INDUSTRY": 0.5615,
+   "SALARY": 0.5333,
+   "EMPLOYMENT_TYPE": 0.6038
+  }
+ },
+ {
+  "model": "indobenchmark/indobert-base-p2",
+  "seed": 42,
+  "parameter_juta": 123.9,
+  "f1_viterbi": 0.711,
+  "f1_argmax": 0.7097,
+  "presisi": 0.7063,
+  "recall": 0.7158,
+  "akurasi_token": 0.8926,
+  "span_acuan": 13314,
+  "langkah_terbaik": 1386,
+  "epoch_terbaik": 18.0,
+  "menit": 38.2,
+  "per_entitas": {
+   "JOB_TITLE": {
+    "presisi": 0.643,
+    "recall": 0.6875,
+    "f1": 0.6645,
+    "support": 592
+   },
+   "COMPANY": {
+    "presisi": 0.6834,
+    "recall": 0.7024,
+    "f1": 0.6928,
+    "support": 252
+   },
+   "LOCATION": {
+    "presisi": 0.6779,
+    "recall": 0.7457,
+    "f1": 0.7101,
+    "support": 460
+   },
+   "EDUCATION_LEVEL": {
+    "presisi": 0.8163,
+    "recall": 0.8347,
+    "f1": 0.8254,
+    "support": 708
+   },
+   "DEGREE_FIELD": {
+    "presisi": 0.8604,
+    "recall": 0.9215,
+    "f1": 0.8899,
+    "support": 535
+   },
+   "EXPERIENCE_YEARS": {
+    "presisi": 0.9353,
+    "recall": 0.9523,
+    "f1": 0.9437,
+    "support": 440
+   },
+   "RESPONSIBILITY": {
+    "presisi": 0.6765,
+    "recall": 0.6668,
+    "f1": 0.6717,
+    "support": 4040
+   },
+   "SKILL": {
+    "presisi": 0.549,
+    "recall": 0.568,
+    "f1": 0.5584,
+    "support": 1933
+   },
+   "SOFT_SKILL": {
+    "presisi": 0.7851,
+    "recall": 0.7767,
+    "f1": 0.7809,
+    "support": 2804
+   },
+   "TOOL": {
+    "presisi": 0.7668,
+    "recall": 0.8004,
+    "f1": 0.7832,
+    "support": 1072
+   },
+   "PROGRAMMING_LANGUAGE": {
+    "presisi": 0.7333,
+    "recall": 0.55,
+    "f1": 0.6286,
+    "support": 20
+   },
+   "INDUSTRY": {
+    "presisi": 0.5653,
+    "recall": 0.5984,
+    "f1": 0.5814,
+    "support": 376
+   },
+   "SALARY": {
+    "presisi": 0.45,
+    "recall": 0.3333,
+    "f1": 0.383,
+    "support": 27
+   },
+   "EMPLOYMENT_TYPE": {
+    "presisi": 0.6585,
+    "recall": 0.4909,
+    "f1": 0.5625,
+    "support": 55
+   }
+  },
+  "riwayat": [
+   {
+    "epoch": 1,
+    "eval_loss": 1.188422679901123,
+    "eval_f1": 0.45424609248179587,
+    "learning_rate": 9.691558441558442e-06,
+    "train_loss": 2.6993218994140626
+   },
+   {
+    "epoch": 2,
+    "eval_loss": 0.7885017991065979,
+    "eval_f1": 0.6433725455897145
+   },
+   {
+    "epoch": 3,
+    "learning_rate": 1.9431818181818182e-05,
+    "eval_loss": 0.6883385181427002,
+    "eval_f1": 0.676091547778113,
+    "train_loss": 0.8386083221435547
+   },
+   {
+    "epoch": 4,
+    "learning_rate": 2.9172077922077924e-05,
+    "eval_loss": 0.7189528942108154,
+    "eval_f1": 0.6838127951910691,
+    "train_loss": 0.651043930053711
+   },
+   {
+    "epoch": 5,
+    "eval_loss": 0.6754895448684692,
+    "eval_f1": 0.7048861623536528,
+    "learning_rate": 2.900974025974026e-05,
+    "train_loss": 0.5430779647827149
+   },
+   {
+    "epoch": 6,
+    "eval_loss": 0.6862892508506775,
+    "eval_f1": 0.6949634093844167,
+    "learning_rate": 2.7927489177489177e-05,
+    "train_loss": 0.44557167053222657
+   },
+   {
+    "epoch": 7,
+    "eval_loss": 0.7102731466293335,
+    "eval_f1": 0.698231054815462
+   },
+   {
+    "epoch": 8,
+    "learning_rate": 2.6845238095238097e-05,
+    "eval_loss": 0.752394437789917,
+    "eval_f1": 0.6998327022981422,
+    "train_loss": 0.3660335922241211
+   },
+   {
+    "epoch": 9,
+    "eval_loss": 0.8185754418373108,
+    "eval_f1": 0.7063761385961779,
+    "learning_rate": 2.5762987012987012e-05,
+    "train_loss": 0.3034893226623535
+   },
+   {
+    "epoch": 10,
+    "eval_loss": 0.812035858631134,
+    "eval_f1": 0.6991345814199929,
+    "learning_rate": 2.468073593073593e-05,
+    "train_loss": 0.24338775634765625
+   },
+   {
+    "epoch": 11,
+    "eval_loss": 0.8713042736053467,
+    "eval_f1": 0.6973951358590004
+   },
+   {
+    "epoch": 12,
+    "learning_rate": 2.359848484848485e-05,
+    "eval_loss": 0.9245197176933289,
+    "eval_f1": 0.6932094477249046,
+    "train_loss": 0.20431407928466797
+   },
+   {
+    "epoch": 13,
+    "learning_rate": 2.2516233766233766e-05,
+    "eval_loss": 0.956102192401886,
+    "eval_f1": 0.6985779916867206,
+    "train_loss": 0.16901132583618164
+   },
+   {
+    "epoch": 14,
+    "eval_loss": 1.0226798057556152,
+    "eval_f1": 0.6879383496406616,
+    "learning_rate": 2.1433982683982685e-05,
+    "train_loss": 0.13482083320617677
+   },
+   {
+    "epoch": 15,
+    "eval_loss": 1.0808801651000977,
+    "eval_f1": 0.6902891670263271
+   },
+   {
+    "epoch": 16,
+    "learning_rate": 2.0351731601731604e-05,
+    "eval_loss": 1.1706769466400146,
+    "eval_f1": 0.6930326634247105,
+    "train_loss": 0.1141236686706543
+   },
+   {
+    "epoch": 17,
+    "learning_rate": 1.926948051948052e-05,
+    "eval_loss": 1.1922268867492676,
+    "eval_f1": 0.699592801786418,
+    "train_loss": 0.09628201484680175
+   },
+   {
+    "epoch": 18,
+    "eval_loss": 1.2393051385879517,
+    "eval_f1": 0.6954555338116982
+   }
+  ],
+  "kesalahan": {
+   "benar": 9530,
+   "terlewat": 854,
+   "palsu": 1113,
+   "salah_label": 311,
+   "batas": 2619
+  },
+  "f1_argmax_per_entitas": {
+   "JOB_TITLE": 0.6622,
+   "COMPANY": 0.6773,
+   "LOCATION": 0.7037,
+   "EDUCATION_LEVEL": 0.8249,
+   "DEGREE_FIELD": 0.8828,
+   "EXPERIENCE_YEARS": 0.9425,
+   "RESPONSIBILITY": 0.6754,
+   "SKILL": 0.5463,
+   "SOFT_SKILL": 0.7791,
+   "TOOL": 0.7782,
+   "PROGRAMMING_LANGUAGE": 0.6667,
+   "INDUSTRY": 0.5764,
+   "SALARY": 0.4,
+   "EMPLOYMENT_TYPE": 0.5625
+  }
+ },
+ {
+  "model": "bert-base-multilingual-cased",
+  "seed": 42,
+  "parameter_juta": 177.3,
+  "f1_viterbi": 0.7283,
+  "f1_argmax": 0.7279,
+  "presisi": 0.7127,
+  "recall": 0.7446,
+  "akurasi_token": 0.8943,
+  "span_acuan": 13305,
+  "langkah_terbaik": 1078,
+  "epoch_terbaik": 16.0,
+  "menit": 49.1,
+  "per_entitas": {
+   "JOB_TITLE": {
+    "presisi": 0.6279,
+    "recall": 0.7297,
+    "f1": 0.675,
+    "support": 592
+   },
+   "COMPANY": {
+    "presisi": 0.7406,
+    "recall": 0.7024,
+    "f1": 0.721,
+    "support": 252
+   },
+   "LOCATION": {
+    "presisi": 0.7627,
+    "recall": 0.7826,
+    "f1": 0.7725,
+    "support": 460
+   },
+   "EDUCATION_LEVEL": {
+    "presisi": 0.8085,
+    "recall": 0.8291,
+    "f1": 0.8187,
+    "support": 708
+   },
+   "DEGREE_FIELD": {
+    "presisi": 0.8542,
+    "recall": 0.9196,
+    "f1": 0.8857,
+    "support": 535
+   },
+   "EXPERIENCE_YEARS": {
+    "presisi": 0.9363,
+    "recall": 0.9682,
+    "f1": 0.952,
+    "support": 440
+   },
+   "RESPONSIBILITY": {
+    "presisi": 0.7176,
+    "recall": 0.6946,
+    "f1": 0.7059,
+    "support": 4031
+   },
+   "SKILL": {
+    "presisi": 0.5636,
+    "recall": 0.6146,
+    "f1": 0.588,
+    "support": 1933
+   },
+   "SOFT_SKILL": {
+    "presisi": 0.7529,
+    "recall": 0.8063,
+    "f1": 0.7787,
+    "support": 2804
+   },
+   "TOOL": {
+    "presisi": 0.7521,
+    "recall": 0.8265,
+    "f1": 0.7876,
+    "support": 1072
+   },
+   "PROGRAMMING_LANGUAGE": {
+    "presisi": 0.5652,
+    "recall": 0.65,
+    "f1": 0.6047,
+    "support": 20
+   },
+   "INDUSTRY": {
+    "presisi": 0.5325,
+    "recall": 0.6543,
+    "f1": 0.5871,
+    "support": 376
+   },
+   "SALARY": {
+    "presisi": 0.4815,
+    "recall": 0.4815,
+    "f1": 0.4815,
+    "support": 27
+   },
+   "EMPLOYMENT_TYPE": {
+    "presisi": 0.6341,
+    "recall": 0.4727,
+    "f1": 0.5417,
+    "support": 55
+   }
+  },
+  "riwayat": [
+   {
+    "epoch": 1,
+    "eval_loss": 1.4564387798309326,
+    "eval_f1": 0.34292062708307613,
+    "learning_rate": 9.691558441558442e-06,
+    "train_loss": 2.918013610839844
+   },
+   {
+    "epoch": 2,
+    "eval_loss": 0.8127484321594238,
+    "eval_f1": 0.6457801636891666
+   },
+   {
+    "epoch": 3,
+    "learning_rate": 1.9431818181818182e-05,
+    "eval_loss": 0.7122184634208679,
+    "eval_f1": 0.6780672268907564,
+    "train_loss": 0.8915611267089844
+   },
+   {
+    "epoch": 4,
+    "learning_rate": 2.9172077922077924e-05,
+    "eval_loss": 0.6983681321144104,
+    "eval_f1": 0.6906517004523371,
+    "train_loss": 0.6486896514892578
+   },
+   {
+    "epoch": 5,
+    "eval_loss": 0.6782044768333435,
+    "eval_f1": 0.7205437404078053,
+    "learning_rate": 2.900974025974026e-05,
+    "train_loss": 0.5483407211303711
+   },
+   {
+    "epoch": 6,
+    "eval_loss": 0.6797193884849548,
+    "eval_f1": 0.7064591038100972,
+    "learning_rate": 2.7927489177489177e-05,
+    "train_loss": 0.45484218597412107
+   },
+   {
+    "epoch": 7,
+    "eval_loss": 0.6891202330589294,
+    "eval_f1": 0.722930351938052
+   },
+   {
+    "epoch": 8,
+    "learning_rate": 2.6845238095238097e-05,
+    "eval_loss": 0.702764630317688,
+    "eval_f1": 0.7107059535124859,
+    "train_loss": 0.38747161865234375
+   },
+   {
+    "epoch": 9,
+    "eval_loss": 0.7416179776191711,
+    "eval_f1": 0.7205824990248342,
+    "learning_rate": 2.5762987012987012e-05,
+    "train_loss": 0.3305012130737305
+   },
+   {
+    "epoch": 10,
+    "eval_loss": 0.7845146059989929,
+    "eval_f1": 0.7193089077964925,
+    "learning_rate": 2.468073593073593e-05,
+    "train_loss": 0.27624748229980467
+   },
+   {
+    "epoch": 11,
+    "eval_loss": 0.7921929359436035,
+    "eval_f1": 0.7195200897673816
+   },
+   {
+    "epoch": 12,
+    "learning_rate": 2.359848484848485e-05,
+    "eval_loss": 0.8387593030929565,
+    "eval_f1": 0.7097218041879864,
+    "train_loss": 0.24159507751464843
+   },
+   {
+    "epoch": 13,
+    "learning_rate": 2.2516233766233766e-05,
+    "eval_loss": 0.8579890131950378,
+    "eval_f1": 0.7178245644373351,
+    "train_loss": 0.20915987014770507
+   },
+   {
+    "epoch": 14,
+    "eval_loss": 0.8973227739334106,
+    "eval_f1": 0.7100150117949819,
+    "learning_rate": 2.1433982683982685e-05,
+    "train_loss": 0.17995542526245117
+   },
+   {
+    "epoch": 15,
+    "eval_loss": 0.9392053484916687,
+    "eval_f1": 0.7099801946094895
+   },
+   {
+    "epoch": 16,
+    "learning_rate": 2.0351731601731604e-05,
+    "eval_loss": 0.948167085647583,
+    "eval_f1": 0.7092455844884916,
+    "train_loss": 0.15790783882141113
+   }
+  ],
+  "kesalahan": {
+   "benar": 9907,
+   "batas": 2365,
+   "palsu": 1226,
+   "salah_label": 353,
+   "terlewat": 680
+  },
+  "f1_argmax_per_entitas": {
+   "JOB_TITLE": 0.6719,
+   "COMPANY": 0.716,
+   "LOCATION": 0.7739,
+   "EDUCATION_LEVEL": 0.8204,
+   "DEGREE_FIELD": 0.8857,
+   "EXPERIENCE_YEARS": 0.9541,
+   "RESPONSIBILITY": 0.7036,
+   "SKILL": 0.5831,
+   "SOFT_SKILL": 0.7813,
+   "TOOL": 0.7828,
+   "PROGRAMMING_LANGUAGE": 0.619,
+   "INDUSTRY": 0.5895,
+   "SALARY": 0.4906,
+   "EMPLOYMENT_TYPE": 0.5474
+  }
+ },
+ {
+  "model": "distilbert-base-multilingual-cased",
+  "seed": 42,
+  "parameter_juta": 134.8,
+  "f1_viterbi": 0.7131,
+  "f1_argmax": 0.7145,
+  "presisi": 0.7014,
+  "recall": 0.7251,
+  "akurasi_token": 0.8916,
+  "span_acuan": 13305,
+  "langkah_terbaik": 1386,
+  "epoch_terbaik": 18.0,
+  "menit": 30.2,
+  "per_entitas": {
+   "JOB_TITLE": {
+    "presisi": 0.654,
+    "recall": 0.6959,
+    "f1": 0.6743,
+    "support": 592
+   },
+   "COMPANY": {
+    "presisi": 0.6752,
+    "recall": 0.627,
+    "f1": 0.6502,
+    "support": 252
+   },
+   "LOCATION": {
+    "presisi": 0.7128,
+    "recall": 0.75,
+    "f1": 0.7309,
+    "support": 460
+   },
+   "EDUCATION_LEVEL": {
+    "presisi": 0.8241,
+    "recall": 0.8206,
+    "f1": 0.8224,
+    "support": 708
+   },
+   "DEGREE_FIELD": {
+    "presisi": 0.8718,
+    "recall": 0.9028,
+    "f1": 0.8871,
+    "support": 535
+   },
+   "EXPERIENCE_YEARS": {
+    "presisi": 0.9422,
+    "recall": 0.9636,
+    "f1": 0.9528,
+    "support": 440
+   },
+   "RESPONSIBILITY": {
+    "presisi": 0.674,
+    "recall": 0.6919,
+    "f1": 0.6828,
+    "support": 4031
+   },
+   "SKILL": {
+    "presisi": 0.5455,
+    "recall": 0.5799,
+    "f1": 0.5622,
+    "support": 1933
+   },
+   "SOFT_SKILL": {
+    "presisi": 0.7616,
+    "recall": 0.7782,
+    "f1": 0.7698,
+    "support": 2804
+   },
+   "TOOL": {
+    "presisi": 0.7572,
+    "recall": 0.8088,
+    "f1": 0.7821,
+    "support": 1072
+   },
+   "PROGRAMMING_LANGUAGE": {
+    "presisi": 0.75,
+    "recall": 0.6,
+    "f1": 0.6667,
+    "support": 20
+   },
+   "INDUSTRY": {
+    "presisi": 0.566,
+    "recall": 0.6383,
+    "f1": 0.6,
+    "support": 376
+   },
+   "SALARY": {
+    "presisi": 0.5,
+    "recall": 0.3704,
+    "f1": 0.4255,
+    "support": 27
+   },
+   "EMPLOYMENT_TYPE": {
+    "presisi": 0.6857,
+    "recall": 0.4364,
+    "f1": 0.5333,
+    "support": 55
+   }
+  },
+  "riwayat": [
+   {
+    "epoch": 1,
+    "eval_loss": 2.000458240509033,
+    "eval_f1": 0.25100189833368486,
+    "learning_rate": 9.691558441558442e-06,
+    "train_loss": 3.689402770996094
+   },
+   {
+    "epoch": 2,
+    "eval_loss": 1.0225833654403687,
+    "eval_f1": 0.5386468952734014
+   },
+   {
+    "epoch": 3,
+    "learning_rate": 1.9431818181818182e-05,
+    "eval_loss": 0.7795900106430054,
+    "eval_f1": 0.6571465888806652,
+    "train_loss": 1.143285675048828
+   },
+   {
+    "epoch": 4,
+    "learning_rate": 2.9172077922077924e-05,
+    "eval_loss": 0.743762195110321,
+    "eval_f1": 0.674949118046133,
+    "train_loss": 0.7475434112548828
+   },
+   {
+    "epoch": 5,
+    "eval_loss": 0.7499001622200012,
+    "eval_f1": 0.7008071986237925,
+    "learning_rate": 2.900974025974026e-05,
+    "train_loss": 0.6112921142578125
+   },
+   {
+    "epoch": 6,
+    "eval_loss": 0.711307168006897,
+    "eval_f1": 0.6917730317199545,
+    "learning_rate": 2.7927489177489177e-05,
+    "train_loss": 0.511407241821289
+   },
+   {
+    "epoch": 7,
+    "eval_loss": 0.6967438459396362,
+    "eval_f1": 0.7076106194690264
+   },
+   {
+    "epoch": 8,
+    "learning_rate": 2.6845238095238097e-05,
+    "eval_loss": 0.7127682566642761,
+    "eval_f1": 0.6985103065996882,
+    "train_loss": 0.4427752304077148
+   },
+   {
+    "epoch": 9,
+    "eval_loss": 0.7445657253265381,
+    "eval_f1": 0.7120944992947813,
+    "learning_rate": 2.5762987012987012e-05,
+    "train_loss": 0.37829845428466796
+   },
+   {
+    "epoch": 10,
+    "eval_loss": 0.7713698744773865,
+    "eval_f1": 0.7088923556942278,
+    "learning_rate": 2.468073593073593e-05,
+    "train_loss": 0.32414520263671875
+   },
+   {
+    "epoch": 11,
+    "eval_loss": 0.7919464707374573,
+    "eval_f1": 0.6990307990523368
+   },
+   {
+    "epoch": 12,
+    "learning_rate": 2.359848484848485e-05,
+    "eval_loss": 0.8223229646682739,
+    "eval_f1": 0.7037195017915031,
+    "train_loss": 0.2866984748840332
+   },
+   {
+    "epoch": 13,
+    "learning_rate": 2.2516233766233766e-05,
+    "eval_loss": 0.8381409645080566,
+    "eval_f1": 0.7014396359340129,
+    "train_loss": 0.25013050079345706
+   },
+   {
+    "epoch": 14,
+    "eval_loss": 0.872602641582489,
+    "eval_f1": 0.6955650431297378,
+    "learning_rate": 2.1433982683982685e-05,
+    "train_loss": 0.2157834243774414
+   },
+   {
+    "epoch": 15,
+    "eval_loss": 0.9409287571907043,
+    "eval_f1": 0.701884195130345
+   },
+   {
+    "epoch": 16,
+    "learning_rate": 2.0351731601731604e-05,
+    "eval_loss": 0.9370567202568054,
+    "eval_f1": 0.7008405557249249,
+    "train_loss": 0.19282238006591798
+   },
+   {
+    "epoch": 17,
+    "learning_rate": 1.926948051948052e-05,
+    "eval_loss": 0.9847835898399353,
+    "eval_f1": 0.6990891905825743,
+    "train_loss": 0.17432464599609376
+   },
+   {
+    "epoch": 18,
+    "eval_loss": 1.0047142505645752,
+    "eval_f1": 0.6996092053842814
+   }
+  ],
+  "kesalahan": {
+   "benar": 9648,
+   "batas": 2480,
+   "palsu": 1212,
+   "terlewat": 812,
+   "salah_label": 365
+  },
+  "f1_argmax_per_entitas": {
+   "JOB_TITLE": 0.67,
+   "COMPANY": 0.6405,
+   "LOCATION": 0.7267,
+   "EDUCATION_LEVEL": 0.8235,
+   "DEGREE_FIELD": 0.8922,
+   "EXPERIENCE_YEARS": 0.9527,
+   "RESPONSIBILITY": 0.6872,
+   "SKILL": 0.5584,
+   "SOFT_SKILL": 0.7726,
+   "TOOL": 0.7799,
+   "PROGRAMMING_LANGUAGE": 0.5641,
+   "INDUSTRY": 0.589,
+   "SALARY": 0.381,
+   "EMPLOYMENT_TYPE": 0.5333
+  }
+ }
+]

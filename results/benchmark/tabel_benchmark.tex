@@ -1,0 +1,23 @@
+\begin{table}[htbp]
+\centering
+\caption{Comparison of Indonesian-specific and general multilingual encoders on the Indonesian job posting NER task.}
+\label{tab:model-benchmark}
+\small
+\begin{tabular}{l r r r r r}
+\hline
+\textbf{Model} & \textbf{Params (M)} & \textbf{P} & \textbf{R} & \textbf{F1} &
+\textbf{Time (min)} \\
+\hline
+indolem/indobert-base-uncased & 110 & 0.708 & 0.758 & 0.732 & 38 \\
+bert-base-multilingual-cased & 177 & 0.713 & 0.745 & 0.728 & 49 \\
+cahya/bert-base-indonesian-1.5G & 110 & 0.700 & 0.743 & 0.721 & 30 \\
+distilbert-base-multilingual-cased & 135 & 0.701 & 0.725 & 0.713 & 30 \\
+indobenchmark/indobert-base-p2 & 124 & 0.706 & 0.716 & 0.711 & 38 \\
+\hline
+\end{tabular}
+
+\vspace{2pt}
+\footnotesize\textit{Note.} All models trained with identical hyperparameters
+on the same document-level split, decoded with IOB2-constrained Viterbi, and
+scored with strict entity matching.
+\end{table}
